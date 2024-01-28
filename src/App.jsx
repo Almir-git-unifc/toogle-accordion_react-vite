@@ -1,7 +1,9 @@
 function App () {
   return (
     <>
-      <div>App</div>
+      <div className='wrapper'>
+        <div className='accordion'>Some items</div>
+      </div>
     </>
   )
 }
