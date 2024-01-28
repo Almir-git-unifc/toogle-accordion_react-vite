@@ -1,5 +1,16 @@
-import './App.css'
+import './App.css';
+import { useState } from 'react';
+
 function App () {
+
+  const [selected, setSelected] = useState(null)
+  const toggle = i => {
+    if (selected == i) {
+      return setSelected(null)
+    }
+    setSelected(i)
+  }
+
   return (
     <>
       <div className='wrapper'>
@@ -8,10 +19,10 @@ function App () {
           {data.map((item, i) => (
             // eslint-disable-next-line react/jsx-key
             <div className='item'>
-              <div className='title'>
+              <div className='title'  onClick={() => toggle(i)}>
                 <h2>{item.question}</h2>
-                {/* *** VAMOS ADICIONAR O BOTÃO + *** */}
-                <span>+</span>
+                {/* *** VAMOS ALTERNAR O BOTÃO +/- *** */}
+                <span>{selected===i ? '-' : '+'}</span>
               </div>
               <div className='content'>{item.answer}</div>
             </div>
