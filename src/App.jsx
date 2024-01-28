@@ -24,7 +24,7 @@ function App () {
                 {/* *** VAMOS ALTERNAR O BOTÃO +/- *** */}
                 <span>{selected===i ? '-' : '+'}</span>
               </div>
-              <div className='content'>{item.answer}</div>
+              <div className={selected === i ? 'content show' :   'content' }>{item.answer}</div>
             </div>
           ))}
         </div>
@@ -46,7 +46,7 @@ const data = [
   {
     question: 'Question 3',
     answer:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus nibh augue, dignissim convallis dolor rutrum ut. Nunc et finibus leo, in varius tortor.  Pellentesque vel justo eget tortor volutpat bibendum. Nulla id cursus tellus, ac  pulvinar elit. Aenean id mauris a dui egestas vehicula eu id ex. Fusce accumsan, diam vitae euismod commodo, ligula magna lacinia arcu, ac elementum tellus turpis id leo. Nunc et est tempor sapien consequat.'
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus nibh augue, dignissim convallis dolor rutrum ut. Nunc et finibus leo, in varius tortor.'
   },
   {
     question: 'Question 4',

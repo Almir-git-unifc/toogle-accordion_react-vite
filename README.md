@@ -1,13 +1,13 @@
-h1></h1>
+<h1>toogle-accordion_react-vite</h1>
 
 
-Description:  'Toogle Accordion in react VITE using html, css and JavaScript, without others libraries'
+Toogle Accordion in react VITE using html, css and JavaScript, without others libraries
 
 ---------------------------------------------------------------------------------------------------------
 
  
 <h3 align="center"> 
-     STATUS: 🔔  React VITE 🚀  App:  '' buildin  ...  🎯  
+     STATUS: 🔔  React VITE 🚀  App: Finished  ...  🎯  
 </h3>
 
 
@@ -17,7 +17,7 @@ Description:  'Toogle Accordion in react VITE using html, css and JavaScript, wi
 --------------------------------------------------------------------------------------
 
 
-![](https://github.com/Almir-git-unifc/xxxxxxx/blob/main/xxxxx.png)
+![toggle_button example screen](https://github.com/Almir-git-unifc/toogle-accordion_react-vite/blob/main/screentoggle.png)
 
 
 --------------------------------------------------------------------------------------
@@ -49,7 +49,7 @@ Example: Layout de site responsivo, simples, criado com código html, css e java
 
 # Feature <a name = "Feature"></a>
 - react component
-- toogle  
+- toggle  
 - Accordion
 
 
