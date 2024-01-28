@@ -1,7 +1,7 @@
 h1></h1>
 
 
-Description:  ''
+Description:  'Toogle Accordion in react VITE using html, css and JavaScript, without others libraries'
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -39,9 +39,7 @@ Description:  ''
 
 # Intro <a name = "Intro"></a>
 
-This project was previously developed for 'The Tech Team', found on YouTube with the title  'Build a React Accordion from Scratch | ReactJS tutorial'.
-
-However, during my development the main change I made was 'xxxxxxxxxxxxxxxxxxxx' .
+This project was previously developed in React for 'The Tech Team', found on YouTube with the title  'Build a React Accordion from Scratch | ReactJS tutorial'.
 
 <!-- 
 Example: Layout de site responsivo, simples, criado com código html, css e javascript; usando regra de mídia, barra de rolagem, ícone de sanduíche e menu deslizante 
@@ -50,7 +48,7 @@ Example: Layout de site responsivo, simples, criado com código html, css e java
 
 
 # Feature <a name = "Feature"></a>
-- react component ????????
+- react component
 - toogle  
 - Accordion
 
@@ -81,7 +79,7 @@ Example: However, during my development the main change is that I used React VIT
 &nbsp;
 # How-To-Use <a name = "How-To-Use"></a>
 
-To clone and run this application, you'll need Git, Node.js v18.16.0 or higher + npm (used version npm@9.8.1) and VITE v4.4.9 installed on your computer. 
+To clone and run this application, you'll need Git, Node.js v18.16.0 or higher + npm (used version npm@9.8.1) and VITE v5.0.12 installed on your computer. 
 From your command line:
 
 ```
