@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    text-align: center;
+  }
+  
+  tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .expandable {
+    cursor: pointer;
+  }
+  
+  .expanded ~ .details {
+    display: table-row;
+  }
+  
+  .details {
+    display: none;
+  }
