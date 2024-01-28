@@ -10,6 +10,8 @@ function App () {
             <div className='item'>
               <div className='title'>
                 <h2>{item.question}</h2>
+                {/* *** VAMOS ADICIONAR O BOTÃO + *** */}
+                <span>+</span>
               </div>
               <div className='content'>{item.answer}</div>
             </div>
